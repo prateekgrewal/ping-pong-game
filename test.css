@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    height: 90vh;
+    width: 90vw;
+    border: 2px solid black;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.paddle{
+    height: 30px;
+    width: 200px;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 40%;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#paddle1{
+    bottom: 0px;
+}
+
+#ball{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+}
